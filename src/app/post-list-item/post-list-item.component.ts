@@ -10,10 +10,10 @@ export class PostListItemComponent {
   @Input()
   post: any
   onLike() {
-    this.post.loveIts += 1;
+    this.post.loveIts ++;
   }
   onDislike() {
-    this.post.loveIts -= 1;
+    this.post.loveIts --;
   }
   constructor() {
   }
